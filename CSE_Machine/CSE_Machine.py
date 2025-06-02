@@ -458,6 +458,7 @@ class CSEMachine:
         temp = temp[:-2] + ")"
         return temp
 
+
     def get_answer(self):
         self.execute()
         if isinstance(self.stack[0], Tup):

@@ -10,5 +10,6 @@ if __name__ == "__main__":
 
     lexer = Lexer(code)
     tokens = lexer.tokenize()
+    
     for token in tokens:
         print(token)

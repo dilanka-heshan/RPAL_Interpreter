@@ -61,14 +61,3 @@ def tokenize(input_str):
             break
     return tokens
 
-#Example usage
-
-# #read input from input.txt
-# input_file = open("input.txt", "r")
-# input_str = input_file.read()
-# input_file.close()
-
-# tokens = tokenize(input_str)
-
-# for token in tokens:
-#     print(token.type, token.value)  # Print each token
